@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # youtube_video_downloader
 A Python script for downloading YouTube videos and playlists with options for resolution and audio-only formats.
-=======
+
 # YouTube Video Downloader
 
 A Python script for downloading YouTube videos and playlists with options for resolution and audio-only formats.
@@ -22,9 +21,9 @@ A Python script for downloading YouTube videos and playlists with options for re
 
 ### 1. Clone the repository
 
-`git clone <repository-url>`
+`git clone https://github.com/ZenithGenius/youtube_video_downloader.git`
 
-`cd <repository-directory>`
+`cd youtube_video_downloader`
 
 ### 2. Create and activate a virtual environment
 
@@ -38,7 +37,7 @@ A Python script for downloading YouTube videos and playlists with options for re
 
 `python3 -m venv venv`
 
-`soutce venv\Scripts\activate`
+`source venv/bin/activate`
 
 ### 3. Install dependencies
 
@@ -50,6 +49,10 @@ Run the following command to install required Python packages:
 Alternatively, you can use the install.py script to set up the environment and install dependencies:
 
 `python3 install.py`
+
+Or run :
+
+`. venv/bin/activate`
 
 ## Usage
 
@@ -88,8 +91,7 @@ You can use the script from the command line with various options:
 
 ### Author
 
-
 - **Hackwrld** - [*GitHub Profile*](https://github.com/ZenithGenius)
 
 Feel free to open an issue or submit a pull request if you have any suggestions or improvements!
->>>>>>> c2acbab (Initial commit)
+
